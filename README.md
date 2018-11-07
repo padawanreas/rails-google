@@ -6,4 +6,5 @@ Une fois que tu as un HTML / CSS de prêt, push le projet sur Heroku.
 
 Sur le terminal
 <li>faire un bundle install</li>
-  
+<li> faire un rails db:create</li>
+<li> rails s</li>
