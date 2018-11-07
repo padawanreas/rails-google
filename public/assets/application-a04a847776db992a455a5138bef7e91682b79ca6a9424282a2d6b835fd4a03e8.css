@@ -1,0 +1,109 @@
+body{
+ margin: 0px;
+ margin-bottom: -18px;
+}
+ul {
+ list-style-type: none;
+}
+.nav {
+ display: flex;
+ justify-content: flex-end;
+ margin: 8px 20px 10px 10px;
+ font-family: arial;
+}
+.nav, li {
+ padding: 10px;
+}
+
+.img_app {
+ width: 30px;
+ height: 30px;
+ margin-top: -5px;
+}
+.btn {
+ margin-top: -8px;
+ background: #486BF7;
+ color: white;
+ border-radius: 2px;
+ border: none;
+ width: 120px;
+ height: 35px;
+ font-weight: bold;
+}
+main {
+ margin-top: 200px;
+ margin-bottom: 280px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.google {
+ align-self: center;
+}
+.formulaire {
+ width: 650px;
+ height: 45px;
+ margin: 30px 0px 30px 0px;
+ background: white;
+ border: 1px solid #C2C5C5;
+ border-radius: 2px;
+ box-shadow: 0px 1px 1px #C2C5C5;
+}
+.btn_formulaire1{
+ margin-left: 25%;
+ width: 180px;
+ height: 45px;
+ background: rgb(236, 236, 236);
+ border-radius: 2px;
+ border: none;
+ font-weight: bold;
+ color: grey;
+}
+.btn_formulaire2{
+ width: 180px;
+ height: 45px;
+ background: rgb(236, 236, 236);
+ border-radius: 2px;
+ border: none;
+ font-weight: bold;
+ color: grey;
+
+}
+.logo {
+ width: 350px;
+ align-self: center;
+}
+.img_btn {
+ width: 45px;
+ position: relative;
+ left: -60px;
+ top: 10px;
+}
+footer {
+ background-color: rgb(248, 248, 248);
+}
+hr {
+ color:white;
+ border: 0.5px solid rgb(216, 216, 216);
+}
+footer p {
+ margin: 20px;
+ margin-left: 50px;
+ color: grey;
+ font-family: Arial;
+}
+.bas_gauche li{
+ display: inline-block;
+ color: grey;
+ font-family: Arial;
+}
+.bas_droit{
+ display: flex;
+ justify-content: flex-end;
+ margin-top: -55px;
+ margin-right: 20px;
+}
+.bas_droit li{
+ color: grey;
+ font-family: Arial;
+}
