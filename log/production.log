@@ -1,0 +1,41 @@
+I, [2018-11-07T17:43:47.842698 #7882]  INFO -- : [326608bf-ac08-4dad-82ed-79de454759a6] Started GET "/" for 127.0.0.1 at 2018-11-07 17:43:47 +0100
+I, [2018-11-07T17:43:47.886339 #7882]  INFO -- : [326608bf-ac08-4dad-82ed-79de454759a6] Processing by HomeController#index as HTML
+I, [2018-11-07T17:43:47.901125 #7882]  INFO -- : [326608bf-ac08-4dad-82ed-79de454759a6]   Rendering home/index.html.erb within layouts/application
+I, [2018-11-07T17:43:47.902819 #7882]  INFO -- : [326608bf-ac08-4dad-82ed-79de454759a6]   Rendered home/index.html.erb within layouts/application (1.5ms)
+I, [2018-11-07T17:43:47.903102 #7882]  INFO -- : [326608bf-ac08-4dad-82ed-79de454759a6] Completed 500 Internal Server Error in 17ms
+F, [2018-11-07T17:43:47.904296 #7882] FATAL -- : [326608bf-ac08-4dad-82ed-79de454759a6]   
+F, [2018-11-07T17:43:47.904433 #7882] FATAL -- : [326608bf-ac08-4dad-82ed-79de454759a6] ActionView::Template::Error (The asset "favicons.png" is not present in the asset pipeline.):
+F, [2018-11-07T17:43:47.904709 #7882] FATAL -- : [326608bf-ac08-4dad-82ed-79de454759a6]     2:   <head>
+[326608bf-ac08-4dad-82ed-79de454759a6]     3:     <meta charset="utf-8"/>
+[326608bf-ac08-4dad-82ed-79de454759a6]     4:     <link rel="stylesheet" href="page_google.css"/>
+[326608bf-ac08-4dad-82ed-79de454759a6]     5:     <%= favicon_link_tag asset_path('favicons.png') %>
+[326608bf-ac08-4dad-82ed-79de454759a6]     6:     <title>Google</title>
+[326608bf-ac08-4dad-82ed-79de454759a6]     7:   </head>
+[326608bf-ac08-4dad-82ed-79de454759a6]     8:   <body>
+F, [2018-11-07T17:43:47.904756 #7882] FATAL -- : [326608bf-ac08-4dad-82ed-79de454759a6]   
+F, [2018-11-07T17:43:47.904793 #7882] FATAL -- : [326608bf-ac08-4dad-82ed-79de454759a6] app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___361579886022787524_47388247693960'
+I, [2018-11-07T17:43:47.928703 #7882]  INFO -- : [bab788a1-d68c-4b92-975b-0b639861fa91] Started GET "/favicon.ico" for 127.0.0.1 at 2018-11-07 17:43:47 +0100
+F, [2018-11-07T17:43:47.929256 #7882] FATAL -- : [bab788a1-d68c-4b92-975b-0b639861fa91]   
+F, [2018-11-07T17:43:47.929304 #7882] FATAL -- : [bab788a1-d68c-4b92-975b-0b639861fa91] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+F, [2018-11-07T17:43:47.929330 #7882] FATAL -- : [bab788a1-d68c-4b92-975b-0b639861fa91]   
+F, [2018-11-07T17:43:47.929356 #7882] FATAL -- : [bab788a1-d68c-4b92-975b-0b639861fa91] actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+[bab788a1-d68c-4b92-975b-0b639861fa91] railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[bab788a1-d68c-4b92-975b-0b639861fa91] activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+[bab788a1-d68c-4b92-975b-0b639861fa91] activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+[bab788a1-d68c-4b92-975b-0b639861fa91] railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] railties (5.2.1) lib/rails/engine.rb:524:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+[bab788a1-d68c-4b92-975b-0b639861fa91] puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+[bab788a1-d68c-4b92-975b-0b639861fa91] puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+[bab788a1-d68c-4b92-975b-0b639861fa91] puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+[bab788a1-d68c-4b92-975b-0b639861fa91] puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
